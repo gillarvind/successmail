@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SuccessMail - Email Marketing Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Inter', sans-serif; background: #f9f9f9; color: #333; }
+    header { background: linear-gradient(to right, #1a73e8, #0056b3); color: white; padding: 3rem 1rem; text-align: center; }
+    header h1 { font-size: 3rem; margin-bottom: 0.5rem; }
+    header p { font-size: 1.2rem; }
+
+    nav { background: #003580; padding: 1rem; text-align: center; }
+    nav a { color: #fff; margin: 0 1rem; text-decoration: none; font-weight: 600; transition: color 0.3s; }
+    nav a:hover { color: #ffd700; }
+
+    .hero {
+      background: url('https://picsum.photos/1200/500?grayscale') no-repeat center center/cover;
+      padding: 5rem 1rem;
+      text-align: center;
+      color: white;
+    }
+    .hero h2 { font-size: 2.5rem; margin-bottom: 1rem; }
+    .hero p { font-size: 1.2rem; margin-bottom: 2rem; }
+    .cta-button {
+      background: #ff9800; color: white; border: none; padding: 1rem 2rem;
+      font-size: 1rem; font-weight: bold; border-radius: 8px; cursor: pointer;
+    }
+    .cta-button:hover { background: #e68900; }
+
+    .section { padding: 4rem 1rem; text-align: center; }
+    .section h2 { color: #1a73e8; font-size: 2rem; margin-bottom: 1.5rem; }
+    .cards { display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; }
+    .card {
+      background: #fff; padding: 2rem; border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1); max-width: 300px;
+      transition: transform 0.3s;
+    }
+    .card:hover { transform: translateY(-5px); }
+    .card img { width: 80px; height: 80px; margin-bottom: 1rem; }
+    .card h3 { margin-bottom: 1rem; color: #0056b3; }
+    .card p { font-size: 1rem; color: #555; }
+
+    .contact {
+      background: #f1f5ff; padding: 3rem 1rem; text-align: center
+    }
+    .contact h2 { color: #003580; margin-bottom: 1rem; }
+    .contact p { font-size: 1.1rem; margin: 0.5rem 0; }
+
+    footer {
+      background: #003580; color: white; text-align: center;
+      padding: 1rem; font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SuccessMail</h1>
+    <p>Achieve Marketing Success with High-Converting Emails</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Grow Your Business with Expert Email Marketing</h2>
+    <p>Get tailored campaigns, smart automation, and real results.</p>
+    
+  </section>
+
+  <section class="section" id="services">
+    <h2>Our Services</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://picsum.photos/id/1011/80" alt="Design">
+        <h3>Email Campaign Design</h3>
+        <p>We craft beautiful, engaging email templates that drive action.</p>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/id/1025/80" alt="Automation">
+        <h3>Marketing Automation</h3>
+        <p>Save time and boost engagement with smart workflows and triggers.</p>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/id/1027/80" alt="Analytics">
+        <h3>Performance Analytics</h3>
+        <p>Understand open rates, CTRs, and campaign ROI with detailed reports.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="pricing">
+    <h2>Simple Pricing</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Starter Plan</h3>
+        <p><strong>Free</strong></p>
+        <p>Up to 1,000 subscribers, 1 user, basic automation.</p>
+      </div>
+      <div class="card">
+        <h3>Pro Plan</h3>
+        <p><strong>₹999/month</strong></p>
+        <p>Up to 10,000 subscribers, advanced automation, A/B testing.</p>
+      </div>
+      <div class="card">
+        <h3>Enterprise</h3>
+        <p><strong>Custom Pricing</strong></p>
+        <p>Unlimited subscribers, API access, dedicated support.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Get in Touch</h2>
+    <p>Email: info@successmail.com</p>
+    <p>Phone: +91-9058528868</p>
+    <p>Address: Noida, India</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SuccessMail. All rights reserved.</p>
+  </footer>
+</body>
+</html>
